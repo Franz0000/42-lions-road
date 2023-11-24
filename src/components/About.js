@@ -1,4 +1,4 @@
-import aboutImg from '../images/about.jpeg';
+import aboutImg from '../images/img6.jpg';
 import Title from './Title';
 
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
           <img src={aboutImg} className='about-photo' alt='awesome beach' />
         </div>
         <article className='about-info'>
-          <h3>explore the difference</h3>
+          <h3>Nick & Yolyn</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
             quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
