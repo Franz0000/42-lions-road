@@ -206,8 +206,8 @@ Hero
 }
 @media screen and (min-width: 768px) {
   .hero {
-    background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
-      url('./images/main.jpeg') center/cover no-repeat;
+    background: linear-gradient(rgb(44, 174, 186, 0.5), rgba(0, 0, 0, 0.5)),
+      url('./images/banner-background.jpg') center/cover no-repeat;
   }
   .hero-banner {
     padding: 0;
@@ -343,10 +343,10 @@ Featured Tours
   position: absolute;
   right: 0;
   bottom: 0;
-  background: var(--clr-primary-8);
+  background: var(--clr-primary-7);
   color: var(--clr-primary-1);
   text-transform: capitalize;
-  padding: 0.25rem 0.5rem;
+  padding: 0.05rem 0.5rem;
   margin-bottom: 0;
 }
 .tour-info {

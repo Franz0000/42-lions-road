@@ -2,6 +2,10 @@ import tour1 from './images/img1.jpg';
 import tour2 from './images/img2.jpg';
 import tour3 from './images/img3.jpg';
 import tour4 from './images/img4.jpg';
+import tour5 from './images/img5.jpg';
+import tour6 from './images/img6.jpg';
+import tour7 from './images/img7.jpg';
+import tour8 from './images/img8.jpg';
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
@@ -64,9 +68,41 @@ export const tours = [
   {
     id: 4,
     image: tour4,
-    date: 'may 22, 20203',
+    date: 'may 22, 2023',
     title: 'ramen',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: 'Megamall',
+  },
+  {
+    id: 5,
+    image: tour5,
+    date: 'may 22, 2023',
+    title: 'ramen',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Megamall',
+  },
+  {
+    id: 6,
+    image: tour6,
+    date: 'april 8, 2023',
+    title: 'Morning Selfie in Rizal',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Tanay Rizal',
+  },
+  {
+    id: 7,
+    image: tour7,
+    date: 'feb 11, 2023',
+    title: 'Philippine Arena',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Bocaue Bulacan',
+  },
+  {
+    id: 8,
+    image: tour8,
+    date: 'april 8, 2023',
+    title: 'Tanay Outing with baby',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Tanay Rizal',
   },
 ];
