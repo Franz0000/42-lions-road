@@ -34,8 +34,8 @@ export const services = [
   },
   {
     id: 3,
-    icon: 'fas fa-socks fa-fw',
-    title: 'Eat',
+    icon: 'fas fa-ring fa-fw',
+    title: 'Get Maried',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.',
   },
 ];

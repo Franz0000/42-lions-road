@@ -332,13 +332,15 @@ Featured Tours
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   transform: scale(1.02);
 }
+
 .tour-img-container {
   position: relative;
 }
 .tour-img {
-  height: 15rem;
+  height: 25rem;
   object-fit: cover;
 }
+
 .tour-date {
   position: absolute;
   right: 0;
@@ -372,6 +374,7 @@ Featured Tours
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+
 }
 .tour-footer p {
   line-height: 0;
@@ -404,7 +407,9 @@ Footer
 ===============
 */
 .footer {
-  background: var(--clr-grey-1);
+  background: url('./images/circle-scatter-haikei.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -502,6 +507,9 @@ Navbar
   color: var(--clr-primary-1);
   background: var(--clr-primary-8);
   padding-left: 2.25rem;
+  text-decoration: underline;
+
+
 }
 /* nav toggle functionality */
 .nav-links {
