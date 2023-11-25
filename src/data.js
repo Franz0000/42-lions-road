@@ -6,6 +6,7 @@ import tour5 from './images/img5.jpg';
 import tour6 from './images/img6.jpg';
 import tour7 from './images/img7.jpg';
 import tour8 from './images/img8.jpg';
+import tour9 from './images/img9.jpg';
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
@@ -104,5 +105,13 @@ export const tours = [
     title: 'Tanay Outing with baby',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: 'Tanay Rizal',
+  },
+  {
+    id: 9,
+    image: tour9,
+    date: 'Nov 25, 2023',
+    title: 'Moa By the Bay',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Moa',
   },
 ];
