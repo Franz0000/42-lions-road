@@ -7,6 +7,7 @@ import tour6 from './images/img6.jpg';
 import tour7 from './images/img7.jpg';
 import tour8 from './images/img8.jpg';
 import tour9 from './images/img9.jpg';
+import tour10 from './images/img10.jpg';
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
@@ -113,5 +114,13 @@ export const tours = [
     title: 'Moa By the Bay',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: 'Moa',
+  },
+  {
+    id: 10,
+    image: tour10,
+    date: 'Nov 27, 2023',
+    title: 'Nanay  92nd  Birthday',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Alex III San Juan',
   },
 ];
