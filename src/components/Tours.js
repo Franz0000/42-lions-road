@@ -5,9 +5,8 @@ const Tours = () => {
   return (
     <section className='section' id='tours'>
       <Title title='featured' subTitle='dates' />
-
       <div className='section-center featured-center'>
-        {tours.map((tour) => {
+        {tours.reverse().map((tour) => {
           return <Tour {...tour} key={tour.id} />
         })}
       </div>
