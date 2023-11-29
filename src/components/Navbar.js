@@ -1,5 +1,5 @@
-import logo from '../images/logo.svg'
-import { pageLinks, socialLinks } from '../data'
+
+import {socialLinks } from '../data'
 import PageLinks from './PageLinks'
 import SocialLink from './SocialLink'
 const Navbar = () => {
@@ -7,7 +7,8 @@ const Navbar = () => {
     <nav className='navbar'>
       <div className='nav-center'>
         <div className='nav-header'>
-          <img src={logo} className='nav-logo' alt='backroads' />
+          {/* <img src={logo} className='nav-logo' alt='backroads' /> */}
+          <h2><span className='nav-logo'>N</span>&<span className="nav-logo">Y</span></h2>
           <button type='button' className='nav-toggle' id='nav-toggle'>
             <i className='fas fa-bars'></i>
           </button>
