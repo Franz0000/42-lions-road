@@ -8,6 +8,8 @@ import tour7 from './images/img7.jpg';
 import tour8 from './images/img8.jpg';
 import tour9 from './images/img9.jpg';
 import tour10 from './images/img10.jpg';
+import tour11 from './images/img11.jpg';
+import tour12 from './images/img12.jpg';
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
@@ -122,5 +124,21 @@ export const tours = [
     title: 'Nanay  92nd  Birthday',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: 'Alex III San Juan',
+  },
+  {
+    id: 11,
+    image: tour11,
+    date: 'Dec 2, 2023',
+    title: 'Foodtrip Night',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Green Field',
+  },
+  {
+    id: 12,
+    image: tour12,
+    date: 'Dec 2, 2023',
+    title: 'Visiting Mommy Yow',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Heritage Taguig',
   },
 ];
