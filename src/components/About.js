@@ -1,6 +1,7 @@
-import aboutImg from '../images/img6.jpg';
-import Title from './Title';
 
+import { tours } from '../data'
+import Title from './Title';
+var latestImage = tours.length - 1;
 const About = () => {
   return (
     <section className='section' id='about'>
@@ -8,7 +9,7 @@ const About = () => {
 
       <div className='section-center about-center'>
         <div className='about-img'>
-          <img src={aboutImg} className='about-photo' alt='awesome beach' />
+          <img src={tours[latestImage].image} className='about-photo' alt='awesome beach' />
         </div>
         <article className='about-info'>
           <h3>Nick & Yolyn</h3>
