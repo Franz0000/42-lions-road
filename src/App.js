@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Services from './components/Services';
 import Tours from './components/Tours';
+import Developer from './components/Developer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Services />
       <Tours />
+      <Developer/>
       <Footer />
     </React.Fragment>
   );

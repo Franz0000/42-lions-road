@@ -10,17 +10,19 @@ import tour9 from './images/img9.jpg';
 import tour10 from './images/img10.jpg';
 import tour11 from './images/img11.jpg';
 import tour12 from './images/img12.jpg';
+import dev from './images/dev-img-1.jpg'
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
   { id: 2, href: '#about', text: 'about' },
   { id: 3, href: '#services', text: 'goals' },
   { id: 4, href: '#tours', text: 'moments' },
+  { id: 5, href: '#developers', text: 'developers' },
 ];
 export const socialLinks = [
-  { id: 1, href: 'https://www.twitter.com', icon: 'fab fa-facebook' },
+  { id: 1, href: 'https://www.facebook.com', icon: 'fab fa-facebook' },
   { id: 2, href: 'https://www.twitter.com', icon: 'fab fa-twitter' },
-  { id: 3, href: 'https://www.twitter.com', icon: 'fab fa-squarespace' },
+  { id: 3, href: 'https://www.squarespace.com', icon: 'fab fa-squarespace' },
 ];
 
 export const services = [
@@ -42,6 +44,16 @@ export const services = [
     title: 'Get Maried',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.',
   },
+];
+
+export const developers = [
+    {
+      id: 1,
+      name: 'Francis Lalaguna',
+      job: 'software engineer',
+      image: dev,
+      text: "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
+    }
 ];
 
 export const tours = [
