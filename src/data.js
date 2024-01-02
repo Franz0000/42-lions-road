@@ -10,6 +10,10 @@ import tour9 from './images/img9.jpg';
 import tour10 from './images/img10.jpg';
 import tour11 from './images/img11.jpg';
 import tour12 from './images/img12.jpg';
+import tour13 from './images/img13.jpg';
+import tour14 from './images/img14.jpg';
+import tour15 from './images/img15.jpg';
+import tour16 from './images/img16.jpg';
 import dev from './images/dev-img-1.jpg'
 
 export const pageLinks = [
@@ -152,5 +156,37 @@ export const tours = [
     title: 'Visiting Mommy Yow',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: 'Heritage Taguig',
+  },
+  {
+    id: 13,
+    image: tour13,
+    date: 'Dec 26, 2023',
+    title: 'Janyns Birthday',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'mary Grace - The Podium',
+  },
+  {
+    id: 14,
+    image: tour14,
+    date: 'Dec 31, 2023',
+    title: 'Visitting Mommy Yow Before Year Ends',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Heritage Taguig',
+  },
+  {
+    id: 15,
+    image: tour15,
+    date: 'Dec 31, 2023',
+    title: 'Benice Grand Canal',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'McKinley Taguig',
+  },
+  {
+    id: 16,
+    image: tour16,
+    date: 'Dec 31, 2023',
+    title: 'Hello With Nanay! Happy New Year!',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Alley 7, Daang Bakal',
   },
 ];
