@@ -177,7 +177,7 @@ export const tours = [
     id: 15,
     image: tour15,
     date: 'Dec 31, 2023',
-    title: 'Benice Grand Canal',
+    title: 'Venice Grand Canal',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: 'McKinley Taguig',
   },
