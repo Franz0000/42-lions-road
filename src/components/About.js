@@ -14,16 +14,9 @@ const About = () => {
         <article className='about-info'>
           <h3>Nick & Yolyn</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
+          In the symphony of our love, every note resonates with the sweet melody of togetherness. From the quiet moments of understanding to the crescendo of shared laughter, we compose a beautiful tale of 'us.' Hand in hand, heart to heart, our journey is an exquisite masterpiece, painted with the colors of affection and trust. Through the pages of time, our story unfolds, a narrative of resilience, growth, and unwavering commitment. In the book of love, we are the authors, and our story is a testament to the extraordinary bond we share. Here's to us, writing our own happily ever after. 💑💖 #LoveStory #ForeverUs
           </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
-          </p>
-          <a href='#' className='btn'>
+          <a href='#home' className='btn'>
             read more
           </a>
         </article>

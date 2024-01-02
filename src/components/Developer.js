@@ -28,7 +28,7 @@ const prevPerson = () =>{
 } 
     return (
         <main className="developer-container" id="developers">
-            <h2>Developers</h2>
+            <h2>Developer</h2>
             <article className='review'>
             <div className="img-container">
             <img src={image} alt={name} className='person-img'/>

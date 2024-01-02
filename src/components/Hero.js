@@ -4,8 +4,7 @@ const Hero = () => {
       <div className='hero-banner'>
         <h1>forever & always</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-          explicabo debitis est autem dicta.
+        Forever and always, a promise written in the stars. Through every sunrise and sunset, our love endures.
         </p>
         <a href='#tours' className='btn hero-btn '>
           explore more

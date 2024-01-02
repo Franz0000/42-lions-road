@@ -239,17 +239,19 @@ About
 .about-img,
 .about-info {
   margin-bottom: 2rem;
+  margin-bottom: 0;
 }
+
+.about-info p{
+  line-height: 2rem;
+}
+
 
 @media screen and (min-width: 992px) {
   .about-center {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
-  }
-  .about-img,
-  .about-info {
-    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 1170px) {
@@ -587,13 +589,15 @@ min-height:calc(100vh - 62px);
 
 .developer-container{
   min-height: 50vh;
+  background: var(--clr-grey-10);
+  padding-top: 3rem;
   display: grid;
   place-items: center;
 }
 
 .review {
   width: 90vw;
-  max-width: var(--fixed-width);
+  max-width: 900px;
   background: var(--white);
   padding: 1.5rem 2rem;
   box-shadow: var(--shadow-1);
