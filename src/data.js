@@ -14,7 +14,23 @@ import tour13 from './images/img13.jpg';
 import tour14 from './images/img14.jpg';
 import tour15 from './images/img15.jpg';
 import tour16 from './images/img16.jpg';
-import dev from './images/dev-img-1.jpg'
+import tour17 from './images/img17.jpg';
+import tour18 from './images/img18.jpg';
+import tour19 from './images/img19.jpg';
+import tour20 from './images/img20.jpg';
+import tour21 from './images/img21.jpg';
+import tour22 from './images/img22.jpg';
+import tour23 from './images/img23.jpg';
+import tour24 from './images/img24.jpg';
+import tour25 from './images/img25.jpg';
+import tour26 from './images/img26.jpg';
+import tour27 from './images/img27.jpg';
+import tour28 from './images/img28.jpg';
+import tour29 from './images/img29.jpg';
+import tour30 from './images/img30.jpg';
+import tour31 from './images/img31.jpg';
+import tour32 from './images/img32.jpg';
+import dev from './images/dev-img-1.jpg';
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
@@ -189,4 +205,133 @@ export const tours = [
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: 'Alley 7, Daang Bakal',
   },
+  {
+    id: 17,
+    image: tour17,
+    date: 'January 13, 2024',
+    title: 'First Travel, Hello Baguio!',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Burnham Park, Baguio City',
+  },
+  {
+    id: 18,
+    image: tour18,
+    date: 'January 13, 2024',
+    title: 'First Travel, Hello Baguio!',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Burnham Park, Baguio City',
+  },
+  {
+    id: 19,
+    image: tour19,
+    date: 'January 13, 2024',
+    title: 'Pagsamba sa Lokal ng Kibraltar',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Lokal ng Kibraltar distrito ng Benguet',
+  },
+  {
+    id: 20,
+    image: tour20,
+    date: 'January 13, 2024',
+    title: 'Unang Sabaw sa Baguio.',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Baguio',
+  },
+  {
+    id: 21,
+    image: tour21,
+    date: 'January 14, 2024',
+    title: 'our First Horse Riding',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Mines View Park Baguio',
+  },
+  {
+    id: 22,
+    image: tour22,
+    date: 'January 14, 2024',
+    title: 'Ang Huling Igorot',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Mines View Park Baguio',
+  },
+  {
+    id: 23,
+    image: tour23,
+    date: 'January 14, 2024',
+    title: 'Sea Of Clouds',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Mines View Park Baguio',
+  },
+  {
+    id: 24,
+    image: tour24,
+    date: 'January 14, 2024',
+    title: 'Sea Of Clouds',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Mines View Park Baguio',
+  },
+  {
+    id: 25,
+    image: tour25,
+    date: 'January 14, 2024',
+    title: 'Si Manganda at Si Malakas',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Stone Kingdom Baguio',
+  },
+  {
+    id: 26,
+    image: tour26,
+    date: 'January 14, 2024',
+    title: 'Si Manganda at Si Malakas',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Stone Kingdom Baguio',
+  },
+  {
+    id: 27,
+    image: tour27,
+    date: 'January 14, 2024',
+    title: 'Stone Kingdom!',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Stone Kingdom Baguio',
+  },
+  {
+    id: 28,
+    image: tour28,
+    date: 'January 14, 2024',
+    title: 'Stone Kingdom!',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Stone Kingdom Baguio',
+  },
+  {
+    id: 29,
+    image: tour29,
+    date: 'January 14, 2024',
+    title: 'Stone Kingdom!',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Stone Kingdom Baguio',
+  },
+  {
+    id: 30,
+    image: tour30,
+    date: 'January 14, 2024',
+    title: 'Stone Kingdom!',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Stone Kingdom Baguio',
+  },
+  {
+    id: 31,
+    image: tour31,
+    date: 'January 14, 2024',
+    title: 'Selfie Muna Bago maiwan ng Bus',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Stone Kingdom Baguio',
+  },
+  {
+    id: 32,
+    image: tour32,
+    date: 'January 14, 2024',
+    title: 'The best Food! 10/10',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Baguio',
+  },
+  
 ];
