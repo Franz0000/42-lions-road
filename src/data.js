@@ -30,14 +30,22 @@ import tour29 from './images/img29.jpg';
 import tour30 from './images/img30.jpg';
 import tour31 from './images/img31.jpg';
 import tour32 from './images/img32.jpg';
+
 import dev from './images/dev-img-1.jpg';
+
+import buhol1 from './images/buhol-img-1.jpg';
+import buhol2 from './images/buhol-img-2.jpg';
+import buhol3 from './images/buhol-img-3.jpg';
+import buhol4 from './images/buhol-img-4.jpg';
+import buhol5 from './images/buhol-img-5.jpg';
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
   { id: 2, href: '#about', text: 'about' },
   { id: 3, href: '#services', text: 'goals' },
   { id: 4, href: '#tours', text: 'moments' },
-  { id: 5, href: '#developers', text: 'developers' },
+  { id: 5, href: '#gallery', text: 'gallery' },
+  { id: 6, href: '#developers', text: 'developers' },
 ];
 export const socialLinks = [
   { id: 1, href: 'https://www.facebook.com', icon: 'fab fa-facebook' },
@@ -335,3 +343,27 @@ export const tours = [
   },
   
 ];
+
+// export const gallery = [
+//   {src: buhol1,width: 1080, height: 960},
+//   {src: buhol2,width: 960, height: 1280},
+//   {src: buhol3,width: 959, height: 1280},
+//   {src: buhol4,width: 960, height: 1280},
+//   {src: buhol5,width: 960, height: 1280}
+// ]
+
+export const gallery = [
+{
+  id:1,
+  images:
+    [{src: buhol1,width: 1080, height: 960},
+    {src: buhol2,width: 960, height: 1280},
+    {src: buhol3,width: 959, height: 1280},
+    {src: buhol4,width: 960, height: 1280},
+    {src: buhol5,width: 960, height: 1280}],
+  title:"Bohol",
+  date:"Feb 18 2024",
+  info: "Lorem Ipsum",
+  location: "Panglao BOHOL"
+}]
+
