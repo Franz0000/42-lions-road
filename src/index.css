@@ -342,7 +342,6 @@ Featured Tours
   background: var(--clr-grey-10);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
-  width: 20vw;
 }
 .tour-card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
