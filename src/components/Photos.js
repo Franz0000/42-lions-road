@@ -8,7 +8,7 @@ import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
-const Photos = ({id,images,title, date,info,location}) =>{
+const Photos = ({id,images,title, date,info,location,highlights}) =>{
     const breakpoints = [1080, 640, 384, 256, 128, 96, 64, 48];
     const [index, setIndex] = useState(-1);
 
@@ -29,7 +29,7 @@ const Photos = ({id,images,title, date,info,location}) =>{
     return (
         <article className='tour-card'>
           <div className='tour-img-container'>
-          <PhotoAlbum layout="columns" photos={Photos} key={id}targetRowHeight={150} onClick={({ index }) => setIndex(index)}/>
+          <PhotoAlbum layout="columns" photos={highlights} key={id}targetRowHeight={150} onClick={({ index }) => setIndex(index)}/>
             <Lightbox
                 slides={Photos}
                 open={index >= 0}

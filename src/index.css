@@ -184,7 +184,7 @@ Hero
 .hero {
   min-height: 100vh;
   background: linear-gradient(rgba(16, 61, 185, 0.2), rgba(0, 0, 0, 0.2)),
-      url('./images/violet-bg-small.jpg') center/cover no-repeat;
+      url('./images/baguio-img-bg-sm.JPG') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -218,9 +218,9 @@ Hero
 }
 @media screen and (min-width: 768px) {
   .hero {
-    background: linear-gradient(rgb(157, 249, 239, 0.5), rgba(0, 0, 0, 0.1)),
-      url('./images/banner-buhol-lg.jpeg') center/cover no-repeat;
-      /* background:url('./images/banner-buhol-lg.jpeg') center/cover no-repeat; */
+    /* background: linear-gradient(rgb(157, 249, 239, 0.5), rgba(0, 0, 0, 0.1)),
+      url('./images/banner-buhol-lg.jpeg') center/cover no-repeat; */
+      background:url('./images/banner-buhol-lg.JPG') center/cover no-repeat;
   }
   .hero-banner {
     padding: 0;
