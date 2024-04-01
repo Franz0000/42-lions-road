@@ -1,4 +1,4 @@
-const OfficialMember = ({ image, date, title, info, location, duration, cost }) => {
+const Tour = ({ image, date, title, info, location, duration, cost }) => {
   return (
     <article className='tour-card'>
       <div className='tour-img-container'>
@@ -22,4 +22,4 @@ const OfficialMember = ({ image, date, title, info, location, duration, cost }) 
     </article>
   )
 }
-export default OfficialMember
+export default Tour
