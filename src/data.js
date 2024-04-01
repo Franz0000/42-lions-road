@@ -1,19 +1,17 @@
-import tour1 from './images/img1.jpg';
-import tour2 from './images/img2.jpg';
-import tour3 from './images/img3.jpg';
-import tour4 from './images/img4.jpg';
-import tour5 from './images/img5.jpg';
-import tour6 from './images/img6.jpg';
-import tour7 from './images/img7.jpg';
-import tour8 from './images/img8.jpg';
-import tour9 from './images/img9.jpg';
-import tour10 from './images/img10.jpg';
-import tour11 from './images/img11.jpg';
-import tour12 from './images/img12.jpg';
-import tour13 from './images/img13.jpg';
-import tour14 from './images/img14.jpg';
-import tour15 from './images/img15.jpg';
-import tour16 from './images/img16.jpg';
+import member1 from './images/pnk-member-1.jpg';
+import member2 from './images/pnk-member-2.jpg';
+import member3 from './images/pnk-member-3.jpg';
+import member4 from './images/pnk-member-4.jpg';
+import member5 from './images/pnk-member-5.jpg';
+import member6 from './images/pnk-member-6.jpg';
+import member7 from './images/pnk-member-7.jpg';
+
+
+import formerMember0 from './images/pnk-formerMember-0.jpg';
+
+
+import teacher0 from './images/pnk-teacher-0.jpg';
+
 import tour17 from './images/baguio-img-1.jpg';
 import tour18 from './images/baguio-img-2.jpg';
 import tour19 from './images/baguio-img-3.jpg';
@@ -42,15 +40,15 @@ import buhol5 from './images/buhol-img-5.jpg';
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
   { id: 2, href: '#about', text: 'about' },
-  { id: 3, href: '#services', text: 'goals' },
-  { id: 4, href: '#tours', text: 'moments' },
+  { id: 3, href: '#tours', text: 'members' },
+  { id: 4, href: '#activities', text: 'activities' },
   { id: 5, href: '#gallery', text: 'gallery' },
-  { id: 6, href: '#developers', text: 'developers' },
+  { id: 6, href: '#developers', text: 'developer' },
 ];
 export const socialLinks = [
-  { id: 1, href: 'https://www.facebook.com', icon: 'fab fa-facebook' },
+  { id: 1, href: 'https://www.facebook.com/IglesiaNiCristoChristianFamilyOrganizations/', icon: 'fab fa-facebook' },
   { id: 2, href: 'https://www.twitter.com', icon: 'fab fa-twitter' },
-  { id: 3, href: 'https://www.squarespace.com', icon: 'fab fa-squarespace' },
+  { id: 3, href: 'https://www.instagram.com/inc_cfo/', icon: 'fab fa-squarespace' },
 ];
 
 export const services = [
@@ -84,142 +82,83 @@ export const developers = [
     }
 ];
 
-export const tours = [
+export const officialMembers = [
   {
     id: 1,
-    image: tour1,
-    date: 'february 11th, 2023',
-    title: 'SM sta Mesa',
+    image: member1,
+    date: 'April 1 2024',
+    title: 'Lamuel Espirito',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: 'SM sta Mesa',
+    location: 'II Pangulo',
   },
   {
     id: 2,
-    image: tour2,
-    date: 'february 12th, 2023',
-    title: 'monthsary date',
+    image: member2,
+    date: 'April 1 2024',
+    title: 'Denmark Delos Reyes',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: 'Robinson magnolia',
+    location: 'Tagasuri',
   },
   {
     id: 3,
-    image: tour3,
-    date: 'august 18, 2023',
-    title: 'Jayson & Sha s  wedding',
+    image: member3,
+    date: 'April 1 2024',
+    title: 'Marjorie Mesina',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: 'Shaw 500',
+    location: 'Kalihim',
   },
   {
     id: 4,
-    image: tour4,
-    date: 'may 22, 2023',
-    title: 'ramen',
+    image: member4,
+    date: 'April 1 2024',
+    title: 'RieLein Anne Yupo',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: 'Megamall',
+    location: 'II Kalihim',
   },
   {
     id: 5,
-    image: tour5,
-    date: 'may 22, 2023',
-    title: 'ramen',
+    image: member5,
+    date: 'April 1 2024',
+    title: 'reilien Yupo',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: 'Megamall',
+    location: 'II Ingat Yaman',
   },
   {
     id: 6,
-    image: tour6,
-    date: 'april 8, 2023',
-    title: 'Morning Selfie in Rizal',
+    image: member6,
+    date: 'April 1 2024',
+    title: 'Cebelee Magalong',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: 'Tanay Rizal',
+    location: 'Kagawad',
   },
   {
     id: 7,
-    image: tour7,
-    date: 'feb 11, 2023',
-    title: 'Philippine Arena',
+    image: member7,
+    date: 'April 1 2024',
+    title: 'Mardrian Bidar',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: 'Bocaue Bulacan',
+    location: 'Kagawad',
   },
+];
+export const formerMembers = [
   {
-    id: 8,
-    image: tour8,
-    date: 'april 8, 2023',
-    title: 'Tanay Outing with baby',
+    id: 0,
+    image: formerMember0,
+    date: 'April 1 2024',
+    title: 'Kiara Arellano',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: 'Tanay Rizal',
-  },
+    location: 'Pangulo',
+  }
+];
+
+export const teachers = [
   {
-    id: 9,
-    image: tour9,
-    date: 'Nov 25, 2023',
-    title: 'Moa By the Bay',
+    id: 0,
+    image: teacher0,
+    date: 'April 1 2024',
+    title: 'Jelyn Nase',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: 'Moa',
-  },
-  {
-    id: 10,
-    image: tour10,
-    date: 'Nov 27, 2023',
-    title: 'Nanay  92nd  Birthday',
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: 'Alex III San Juan',
-  },
-  {
-    id: 11,
-    image: tour11,
-    date: 'Dec 2, 2023',
-    title: 'Foodtrip Night',
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: 'Green Field',
-  },
-  {
-    id: 12,
-    image: tour12,
-    date: 'Dec 2, 2023',
-    title: 'Visiting Mommy Yow',
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: 'Heritage Taguig',
-  },
-  {
-    id: 13,
-    image: tour13,
-    date: 'Dec 26, 2023',
-    title: 'Janyns Birthday',
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: 'mary Grace - The Podium',
-  },
-  {
-    id: 14,
-    image: tour14,
-    date: 'Dec 31, 2023',
-    title: 'Visitting Mommy Yow Before Year Ends',
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: 'Heritage Taguig',
-  },
-  {
-    id: 15,
-    image: tour15,
-    date: 'Dec 31, 2023',
-    title: 'Venice Grand Canal',
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: 'McKinley Taguig',
-  },
-  {
-    id: 16,
-    image: tour16,
-    date: 'Dec 31, 2023',
-    title: 'Hello With Nanay! Happy New Year!',
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: 'Alley 7, Daang Bakal',
-  },
-  {
-    id: 27,
-    image: tour22,
-    date: 'January 14, 2024',
-    title: 'Ang Huling Igorot',
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: 'Mines View Park Baguio',
+    location: 'Dako ng 42 Lions Road',
   }
 ];
 
