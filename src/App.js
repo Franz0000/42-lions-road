@@ -17,8 +17,8 @@ function App() {
       {/* <Services /> */}
       {/* <Album /> */}
       <Members />
-      {/* <Developer/> */}
-      {/* <Footer /> */}
+      <Developer/>
+      <Footer />
     </React.Fragment>
   );
 }

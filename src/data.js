@@ -7,7 +7,7 @@ import member6 from './images/pnk-member-6.jpg';
 import member7 from './images/pnk-member-7.jpg';
 
 
-import formerMember0 from './images/pnk-formerMember-0.jpg';
+import formerMember0 from './images/pnk-formerMember-1.jpg';
 
 
 import teacher0 from './images/pnk-teacher-0.jpg';
