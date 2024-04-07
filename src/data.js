@@ -90,7 +90,7 @@ export const officialMembers = [
     image: member0,
     date: 'April 1 2024',
     title: 'Francis Lalaguna',
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    info: `Turuan mo ang bata sa daan na dapat niyang lakaran, at pagka tumanda man siya ay hindi niya hihiwalayan. Kawikaan 22:6`,
     location: 'Pangulo',
   },
   {
