@@ -1,3 +1,4 @@
+import member0 from './images/pnk-member-0.jpg';
 import member1 from './images/pnk-member-1.jpg';
 import member2 from './images/pnk-member-2.jpg';
 import member3 from './images/pnk-member-3.jpg';
@@ -11,6 +12,7 @@ import formerMember0 from './images/pnk-formerMember-1.jpg';
 
 
 import teacher0 from './images/pnk-teacher-0.jpg';
+import teacher1 from './images/pnk-teacher-1.jpg';
 
 import tour17 from './images/baguio-img-1.jpg';
 import tour18 from './images/baguio-img-2.jpg';
@@ -83,6 +85,14 @@ export const developers = [
 ];
 
 export const officialMembers = [
+  {
+    id: 0,
+    image: member0,
+    date: 'April 1 2024',
+    title: 'Francis Lalaguna',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'Pangulo',
+  },
   {
     id: 1,
     image: member1,
@@ -159,6 +169,14 @@ export const teachers = [
     title: 'Jelyn Nase',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: 'Dako ng 42 Lions Road',
+  },
+  {
+    id: 0,
+    image: teacher1,
+    date: 'April 1 2024',
+    title: 'Glydel Daet',
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    location: 'TBH',
   }
 ];
 
