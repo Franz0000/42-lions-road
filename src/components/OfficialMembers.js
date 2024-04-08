@@ -1,3 +1,4 @@
+import '../styles/Cards.css'
 const OfficialMember = ({ image, date, title, info, location, duration, cost }) => {
   return (
     <article className='tour-card'>

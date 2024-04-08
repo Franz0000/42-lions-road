@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { FaChevronLeft,FaChevronRight,FaQuoteRight  } from "react-icons/fa";
-import { developers } from '../data';
+import { developers } from '../data/developers';
 const Developer = () => {
     // const {name, job, text, image } = developers[0]
 

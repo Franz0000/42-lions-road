@@ -1,5 +1,5 @@
 import '../styles/Navbar.css'
-import {socialLinks } from '../data'
+import {socialLinks } from '../data/socialLinks'
 import PageLinks from './PageLinks'
 import SocialLink from './SocialLink'
 const Navbar = () => {

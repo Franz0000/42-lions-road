@@ -1,4 +1,4 @@
-import { services } from '../data'
+import { services } from '../data/services'
 import Title from './Title'
 import Service from './Service'
 const Services = () => {
