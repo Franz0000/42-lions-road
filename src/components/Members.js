@@ -1,6 +1,4 @@
-import { officialMembers } from '../data'
-import { formerMembers } from '../data'
-import { teachers } from '../data'
+import { officialMembers , formerMembers, teachers} from '../data/members.js'
 import Title from './Title'
 import OfficialMembers from './OfficialMembers'
 import FormerMembers from './FormerMembers'

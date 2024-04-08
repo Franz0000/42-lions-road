@@ -7,18 +7,20 @@ import Services from './components/Services';
 import Members from './components/Members';
 import Developer from './components/Developer';
 import Album from './components/Album';
+import ImageUpload from './components/ImageUpload';
 
 function App() {
   return (
     <React.Fragment>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       {/* <About /> */}
       {/* <Services /> */}
       {/* <Album /> */}
       <Members />
-      <Developer/>
-      <Footer />
+      {/* <Developer/> */}
+      {/* <Footer /> */}
+      {/* <ImageUpload /> */}
     </React.Fragment>
   );
 }

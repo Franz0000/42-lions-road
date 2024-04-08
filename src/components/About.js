@@ -1,5 +1,5 @@
 
-import { officialMembers } from '../data'
+import { officialMembers } from '../data/members'
 import Title from './Title';
 var latestImage = officialMembers.length - 1;
 const About = () => {
