@@ -12,15 +12,15 @@ import ImageUpload from './components/ImageUpload';
 function App() {
   return (
     <React.Fragment>
-      {/* <Navbar /> */}
-      {/* <Hero /> */}
+      <Navbar />
+      <Hero />
       {/* <About /> */}
       {/* <Services /> */}
       {/* <Album /> */}
-      {/* <Members /> */}
-      {/* <Developer/> */}
-      {/* <Footer /> */}
-      <ImageUpload />
+      <Members />
+      <Developer/>
+      <Footer />
+      {/* <ImageUpload /> */}
     </React.Fragment>
   );
 }
