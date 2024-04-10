@@ -1,36 +1,53 @@
-// src/components/ImageUpload.js
-import '../styles/ImageUpload.css'
-import React, { useState } from 'react';
+
+import React, { useState , useEffect} from 'react';
+import axios from 'axios';
 
 const ImageUpload = () => {
   const [selectedFile, setSelectedFile] = useState(null);
+  const [image, setImage] = useState([]);
 
-  const handleFileChange = (e) => {
-    const file = e.target.files[0];
-    setSelectedFile(file);
+  const handleFileChange = (event) => {
+    setSelectedFile(event.target.files[0]);
   };
 
   const handleUpload = () => {
-    // Implement your upload logic here (e.g., send the file to a server).
-    // You can use Axios or any other HTTP library for this.
-    console.log('Uploading file:', selectedFile);
+    if (selectedFile) {
+      const formData = new FormData();
+      formData.append('image', selectedFile);
+      // Replace 'YOUR_API_ENDPOINT' with your actual API endpoint
+      axios.post('http://ec2-13-231-167-201.ap-northeast-1.compute.amazonaws.com:3000/uploads/single', formData)
+        .then((response) => {
+          console.log('Image uploaded successfully:', response.data);
+          // Handle success (e.g., show a success message)
+          setTimeout(() => {
+            window.location.reload(false);
+        }, 500)
+        })
+        .catch((error) => {
+          console.error('Error uploading image:', error);
+          // Handle error (e.g., show an error message)
+        });
+    }
   };
 
+  useEffect(() => {
+    axios.get('http://ec2-13-231-167-201.ap-northeast-1.compute.amazonaws.com:3000/uploads/all/image')
+    .then((response) => {
+      console.log('Image retrieve successfully:' , response.data.imageData)
+      setImage(response.data.imageData)
+    })
+    .catch(error => console.error('Error uploading image:', error))
+  }, [])
+
   return (
-    <div className="image-upload-container">
-      <input
-        type="file"
-        accept="image/*"
-        onChange={handleFileChange}
-      />
-      <button onClick={handleUpload}>Upload</button>
-      {selectedFile && (
-        <img
-          src={URL.createObjectURL(selectedFile)}
-          alt="Preview"
-          className="image-preview"
-        />
-      )}
+    <div>
+      <input type="file" onChange={handleFileChange} />
+      <button onClick={handleUpload}>Upload Image</button>
+      {image.map((item) =>{
+        console.log(item)
+        return <img src={`http://ec2-13-231-167-201.ap-northeast-1.compute.amazonaws.com:3000/images/`+item.filename }/>
+      })}
+       
     </div>
   );
 };

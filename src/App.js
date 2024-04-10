@@ -13,14 +13,14 @@ function App() {
   return (
     <React.Fragment>
       {/* <Navbar /> */}
-      <Hero />
+      {/* <Hero /> */}
       {/* <About /> */}
       {/* <Services /> */}
       {/* <Album /> */}
-      <Members />
+      {/* <Members /> */}
       {/* <Developer/> */}
       {/* <Footer /> */}
-      {/* <ImageUpload /> */}
+      <ImageUpload />
     </React.Fragment>
   );
 }
