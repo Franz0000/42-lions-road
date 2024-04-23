@@ -1,5 +1,5 @@
 {
-  "name": "backroads-app",
+  "name": "42-lions-road",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +21,7 @@
     "yet-another-react-lightbox": "^3.17.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --port=8000",
     "build": "CI= react-scripts build",
     "local-build": "react-scripts build",
     "test": "react-scripts test",
