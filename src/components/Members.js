@@ -7,21 +7,21 @@ import OfficialMembers from './OfficialMembers'
 import FormerMembers from './FormerMembers'
 import Teachers from './Teachers'
 const Members = () => {
-  const [officialMember, setOfficialMembers] = useState([]);
+  // const [officialMember, setOfficialMembers] = useState([]);
 
-  useEffect(() => {
-    axios.get('http://ec2-13-231-167-201.ap-northeast-1.compute.amazonaws.com:3000/officials/member')
-    .then((response) => {
-      console.log('Image retrieve successfully:' , response.data.officialMembersData)
-      setOfficialMembers(response.data.officialMembersData)
-    })
-    .catch(error => console.error('Error uploading image:', error))
-  }, [])
+  // useEffect(() => {
+  //   axios.get('http://ec2-54.95.255.71.ap-northeast-1.compute.amazonaws.com:3000/officials/member')
+  //   .then((response) => {
+  //     console.log('Image retrieve successfully:' , response.data.officialMembersData)
+  //     setOfficialMembers(response.data.officialMembersData)
+  //   })
+  //   .catch(error => console.error('Error getting images:', error))
+  // }, [])
   return (<>
       <section className='section' id='tours'>
       <Title title='Official' subTitle='Members' />
       <div className='section-center featured-center'>
-        {officialMember.map((member) => {
+        {officialMembers.map((member) => {
           console.log(member)
           return <OfficialMembers {...member} key={member.id} />
         })}
