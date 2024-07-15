@@ -1,5 +1,5 @@
 import '../styles/Cards.css'
-const OfficialMember = ({ image, date, title, info, location, duration, cost }) => {
+const OfficialMember = ({ image, date, title, info, duty, duration, cost }) => {
   // const OfficialMember = ({ filename, name, info, title}) => {
   return (
     <article className='tour-card'>
@@ -18,7 +18,7 @@ const OfficialMember = ({ image, date, title, info, location, duration, cost }) 
             <span>
               <i className='fas fa-map'></i>
             </span>
-            {title}
+            {duty}
           </p>
         </div>
       </div>

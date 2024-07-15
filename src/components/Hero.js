@@ -9,9 +9,6 @@ const Hero = () => {
         "Turuan mo ang bata sa daan na dapat niyang lakaran, at pagka tumanda man siya ay hindi niya hihiwalayan." 
         </p>
         <p>Kawikaan 22:6</p>
-        <a href='#tours' className='btn hero-btn '>
-          explore more
-        </a>
       </div>
     </section>
   )
